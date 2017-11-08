@@ -7,7 +7,7 @@ module.exports = {
   __PROD__     : NODE_ENV === 'production',
   __DEV__      : NODE_ENV === 'development',
   globals      : {
-    __DEASKTOP__ : false
+    __DESKTOP__  : false
   },
   basePath     : __dirname,
   srcDir       : 'src',
@@ -29,6 +29,12 @@ module.exports = {
     index: './index.js'
   },
   alias        : {
-    containers : path.resolve(__dirname, 'src/containers')
+    components     : path.resolve(__dirname, 'src/components'),
+    containers     : path.resolve(__dirname, 'src/containers'),
+    features       : path.resolve(__dirname, 'src/features'),
+    reduxs         : path.resolve(__dirname, 'src/reduxs'),
+    services       : path.resolve(__dirname, 'src/services'),
+    store          : path.resolve(__dirname, 'src/store'),
+    styles         : path.resolve(__dirname, 'src/styles'),
   }
 }
