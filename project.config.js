@@ -23,6 +23,18 @@ module.exports = {
     'vendor_1': [
       'react',
       'react-dom'
+    ],
+    'vendor_2': [
+      'redux',
+      'react-redux',
+      'redux-logger',
+      'redux-thunk',
+      'react-router',
+      'react-router-dom',
+      'react-router-redux',
+      'prop-types',
+      'localforage',
+      'http-services'
     ]
   },
   entry        : {
@@ -30,6 +42,7 @@ module.exports = {
   },
   alias        : {
     components     : path.resolve(__dirname, 'src/components'),
+    config         : path.resolve(__dirname, 'src/config'),
     containers     : path.resolve(__dirname, 'src/containers'),
     features       : path.resolve(__dirname, 'src/features'),
     reduxs         : path.resolve(__dirname, 'src/reduxs'),

@@ -2,6 +2,12 @@
 // Utils
 // ------------------------------------
 import _ from 'lodash'
+import { httpServices } from 'http-services'
+import config from 'config'
+
+const { domain, apiPath } = config
+export const REDUX_FETCH_TIMEOUT = 500
+export const HttpServices = new httpServices(domain, apiPath)
 
 export const getReducers = (Reduxs) => {
   let Reducers = {}
