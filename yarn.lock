@@ -2815,12 +2815,18 @@ http-proxy@^1.16.2:
     eventemitter3 "1.x.x"
     requires-port "1.x.x"
 
-http-services@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.npmjs.org/http-services/-/http-services-1.2.7.tgz#118e33588d27a2770b3c2b1348998ce4d3614a87"
+http-services-core@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/http-services-core/download/http-services-core-1.0.0.tgz#129846942c73b247e467d39e0e01c31403ffc70a"
   dependencies:
     isomorphic-fetch "^2.2.1"
     query-string "^5.0.1"
+
+http-services@^1.2.8:
+  version "1.2.8"
+  resolved "http://registry.npm.taobao.org/http-services/download/http-services-1.2.8.tgz#abdaa16fead4ecb84a7ec683725c4f190bf02d08"
+  dependencies:
+    http-services-core "^1.0.0"
 
 http-signature@~1.1.0:
   version "1.1.1"
