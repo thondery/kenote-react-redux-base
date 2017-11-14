@@ -1,9 +1,9 @@
 {
-  "name": "kenode-react-base",
-  "version": "1.1.0",
-  "description": "react base",
+  "name": "kenode-react-redux-base",
+  "version": "1.0.0",
+  "description": "React & Redux Base for Kenote",
   "main": "index.js",
-  "repository": "https://github.com/thondery/kenote-react-base.git",
+  "repository": "https://github.com/thondery/kenote-react-redux-base.git",
   "author": "thondery <thondery@163.com>",
   "license": "MIT",
   "dependencies": {
